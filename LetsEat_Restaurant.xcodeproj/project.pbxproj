@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACD4F541BD058BD000BDF28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4F531BD058BD000BDF28 /* main.m */; };
+		FACD4F571BD058BD000BDF28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4F561BD058BD000BDF28 /* AppDelegate.m */; };
+		FACD4F5A1BD058BD000BDF28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4F591BD058BD000BDF28 /* ViewController.m */; };
+		FACD4F5D1BD058BD000BDF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD4F5B1BD058BD000BDF28 /* Main.storyboard */; };
+		FACD4F5F1BD058BD000BDF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACD4F5E1BD058BD000BDF28 /* Assets.xcassets */; };
+		FACD4F621BD058BD000BDF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD4F601BD058BD000BDF28 /* LaunchScreen.storyboard */; };
+		FACD4F6D1BD058BD000BDF28 /* LetsEat_RestaurantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4F6C1BD058BD000BDF28 /* LetsEat_RestaurantTests.m */; };
+		FACD4F781BD058BD000BDF28 /* LetsEat_RestaurantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4F771BD058BD000BDF28 /* LetsEat_RestaurantUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACD4F691BD058BD000BDF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACD4F471BD058BD000BDF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACD4F4E1BD058BD000BDF28;
+			remoteInfo = LetsEat_Restaurant;
+		};
+		FACD4F741BD058BD000BDF28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACD4F471BD058BD000BDF28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACD4F4E1BD058BD000BDF28;
+			remoteInfo = LetsEat_Restaurant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACD4F4F1BD058BD000BDF28 /* LetsEat_Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsEat_Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACD4F531BD058BD000BDF28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FACD4F551BD058BD000BDF28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FACD4F561BD058BD000BDF28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FACD4F581BD058BD000BDF28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FACD4F591BD058BD000BDF28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FACD4F5C1BD058BD000BDF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACD4F5E1BD058BD000BDF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACD4F611BD058BD000BDF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACD4F631BD058BD000BDF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACD4F681BD058BD000BDF28 /* LetsEat_RestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsEat_RestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACD4F6C1BD058BD000BDF28 /* LetsEat_RestaurantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetsEat_RestaurantTests.m; sourceTree = "<group>"; };
+		FACD4F6E1BD058BD000BDF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACD4F731BD058BD000BDF28 /* LetsEat_RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsEat_RestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACD4F771BD058BD000BDF28 /* LetsEat_RestaurantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetsEat_RestaurantUITests.m; sourceTree = "<group>"; };
+		FACD4F791BD058BD000BDF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACD4F4C1BD058BD000BDF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD4F651BD058BD000BDF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD4F701BD058BD000BDF28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACD4F461BD058BD000BDF28 = {
+			isa = PBXGroup;
+			children = (
+				FACD4F511BD058BD000BDF28 /* LetsEat_Restaurant */,
+				FACD4F6B1BD058BD000BDF28 /* LetsEat_RestaurantTests */,
+				FACD4F761BD058BD000BDF28 /* LetsEat_RestaurantUITests */,
+				FACD4F501BD058BD000BDF28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACD4F501BD058BD000BDF28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACD4F4F1BD058BD000BDF28 /* LetsEat_Restaurant.app */,
+				FACD4F681BD058BD000BDF28 /* LetsEat_RestaurantTests.xctest */,
+				FACD4F731BD058BD000BDF28 /* LetsEat_RestaurantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACD4F511BD058BD000BDF28 /* LetsEat_Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				FACD4F551BD058BD000BDF28 /* AppDelegate.h */,
+				FACD4F561BD058BD000BDF28 /* AppDelegate.m */,
+				FACD4F581BD058BD000BDF28 /* ViewController.h */,
+				FACD4F591BD058BD000BDF28 /* ViewController.m */,
+				FACD4F5B1BD058BD000BDF28 /* Main.storyboard */,
+				FACD4F5E1BD058BD000BDF28 /* Assets.xcassets */,
+				FACD4F601BD058BD000BDF28 /* LaunchScreen.storyboard */,
+				FACD4F631BD058BD000BDF28 /* Info.plist */,
+				FACD4F521BD058BD000BDF28 /* Supporting Files */,
+			);
+			path = LetsEat_Restaurant;
+			sourceTree = "<group>";
+		};
+		FACD4F521BD058BD000BDF28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACD4F531BD058BD000BDF28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACD4F6B1BD058BD000BDF28 /* LetsEat_RestaurantTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACD4F6C1BD058BD000BDF28 /* LetsEat_RestaurantTests.m */,
+				FACD4F6E1BD058BD000BDF28 /* Info.plist */,
+			);
+			path = LetsEat_RestaurantTests;
+			sourceTree = "<group>";
+		};
+		FACD4F761BD058BD000BDF28 /* LetsEat_RestaurantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACD4F771BD058BD000BDF28 /* LetsEat_RestaurantUITests.m */,
+				FACD4F791BD058BD000BDF28 /* Info.plist */,
+			);
+			path = LetsEat_RestaurantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACD4F4E1BD058BD000BDF28 /* LetsEat_Restaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACD4F7C1BD058BD000BDF28 /* Build configuration list for PBXNativeTarget "LetsEat_Restaurant" */;
+			buildPhases = (
+				FACD4F4B1BD058BD000BDF28 /* Sources */,
+				FACD4F4C1BD058BD000BDF28 /* Frameworks */,
+				FACD4F4D1BD058BD000BDF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsEat_Restaurant;
+			productName = LetsEat_Restaurant;
+			productReference = FACD4F4F1BD058BD000BDF28 /* LetsEat_Restaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACD4F671BD058BD000BDF28 /* LetsEat_RestaurantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACD4F7F1BD058BD000BDF28 /* Build configuration list for PBXNativeTarget "LetsEat_RestaurantTests" */;
+			buildPhases = (
+				FACD4F641BD058BD000BDF28 /* Sources */,
+				FACD4F651BD058BD000BDF28 /* Frameworks */,
+				FACD4F661BD058BD000BDF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACD4F6A1BD058BD000BDF28 /* PBXTargetDependency */,
+			);
+			name = LetsEat_RestaurantTests;
+			productName = LetsEat_RestaurantTests;
+			productReference = FACD4F681BD058BD000BDF28 /* LetsEat_RestaurantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACD4F721BD058BD000BDF28 /* LetsEat_RestaurantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACD4F821BD058BD000BDF28 /* Build configuration list for PBXNativeTarget "LetsEat_RestaurantUITests" */;
+			buildPhases = (
+				FACD4F6F1BD058BD000BDF28 /* Sources */,
+				FACD4F701BD058BD000BDF28 /* Frameworks */,
+				FACD4F711BD058BD000BDF28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACD4F751BD058BD000BDF28 /* PBXTargetDependency */,
+			);
+			name = LetsEat_RestaurantUITests;
+			productName = LetsEat_RestaurantUITests;
+			productReference = FACD4F731BD058BD000BDF28 /* LetsEat_RestaurantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACD4F471BD058BD000BDF28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Monte Thakkar";
+				TargetAttributes = {
+					FACD4F4E1BD058BD000BDF28 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C3V4QQ3VFL;
+					};
+					FACD4F671BD058BD000BDF28 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C3V4QQ3VFL;
+						TestTargetID = FACD4F4E1BD058BD000BDF28;
+					};
+					FACD4F721BD058BD000BDF28 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C3V4QQ3VFL;
+						TestTargetID = FACD4F4E1BD058BD000BDF28;
+					};
+				};
+			};
+			buildConfigurationList = FACD4F4A1BD058BD000BDF28 /* Build configuration list for PBXProject "LetsEat_Restaurant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACD4F461BD058BD000BDF28;
+			productRefGroup = FACD4F501BD058BD000BDF28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACD4F4E1BD058BD000BDF28 /* LetsEat_Restaurant */,
+				FACD4F671BD058BD000BDF28 /* LetsEat_RestaurantTests */,
+				FACD4F721BD058BD000BDF28 /* LetsEat_RestaurantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACD4F4D1BD058BD000BDF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD4F621BD058BD000BDF28 /* LaunchScreen.storyboard in Resources */,
+				FACD4F5F1BD058BD000BDF28 /* Assets.xcassets in Resources */,
+				FACD4F5D1BD058BD000BDF28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD4F661BD058BD000BDF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD4F711BD058BD000BDF28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACD4F4B1BD058BD000BDF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD4F5A1BD058BD000BDF28 /* ViewController.m in Sources */,
+				FACD4F571BD058BD000BDF28 /* AppDelegate.m in Sources */,
+				FACD4F541BD058BD000BDF28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD4F641BD058BD000BDF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD4F6D1BD058BD000BDF28 /* LetsEat_RestaurantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD4F6F1BD058BD000BDF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD4F781BD058BD000BDF28 /* LetsEat_RestaurantUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACD4F6A1BD058BD000BDF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACD4F4E1BD058BD000BDF28 /* LetsEat_Restaurant */;
+			targetProxy = FACD4F691BD058BD000BDF28 /* PBXContainerItemProxy */;
+		};
+		FACD4F751BD058BD000BDF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACD4F4E1BD058BD000BDF28 /* LetsEat_Restaurant */;
+			targetProxy = FACD4F741BD058BD000BDF28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACD4F5B1BD058BD000BDF28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACD4F5C1BD058BD000BDF28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACD4F601BD058BD000BDF28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACD4F611BD058BD000BDF28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACD4F7A1BD058BD000BDF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACD4F7B1BD058BD000BDF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACD4F7D1BD058BD000BDF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LetsEat_Restaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MonteThakkar.LetsEat-Restaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FACD4F7E1BD058BD000BDF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LetsEat_Restaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MonteThakkar.LetsEat-Restaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FACD4F801BD058BD000BDF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LetsEat_RestaurantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MonteThakkar.LetsEat-RestaurantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsEat_Restaurant.app/LetsEat_Restaurant";
+			};
+			name = Debug;
+		};
+		FACD4F811BD058BD000BDF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LetsEat_RestaurantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MonteThakkar.LetsEat-RestaurantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsEat_Restaurant.app/LetsEat_Restaurant";
+			};
+			name = Release;
+		};
+		FACD4F831BD058BD000BDF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LetsEat_RestaurantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MonteThakkar.LetsEat-RestaurantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LetsEat_Restaurant;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FACD4F841BD058BD000BDF28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LetsEat_RestaurantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MonteThakkar.LetsEat-RestaurantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LetsEat_Restaurant;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACD4F4A1BD058BD000BDF28 /* Build configuration list for PBXProject "LetsEat_Restaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD4F7A1BD058BD000BDF28 /* Debug */,
+				FACD4F7B1BD058BD000BDF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACD4F7C1BD058BD000BDF28 /* Build configuration list for PBXNativeTarget "LetsEat_Restaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD4F7D1BD058BD000BDF28 /* Debug */,
+				FACD4F7E1BD058BD000BDF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACD4F7F1BD058BD000BDF28 /* Build configuration list for PBXNativeTarget "LetsEat_RestaurantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD4F801BD058BD000BDF28 /* Debug */,
+				FACD4F811BD058BD000BDF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACD4F821BD058BD000BDF28 /* Build configuration list for PBXNativeTarget "LetsEat_RestaurantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACD4F831BD058BD000BDF28 /* Debug */,
+				FACD4F841BD058BD000BDF28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACD4F471BD058BD000BDF28 /* Project object */;
+}
