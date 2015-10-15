@@ -15,6 +15,20 @@
 		FACD4F621BD058BD000BDF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACD4F601BD058BD000BDF28 /* LaunchScreen.storyboard */; };
 		FACD4F6D1BD058BD000BDF28 /* LetsEat_RestaurantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4F6C1BD058BD000BDF28 /* LetsEat_RestaurantTests.m */; };
 		FACD4F781BD058BD000BDF28 /* LetsEat_RestaurantUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4F771BD058BD000BDF28 /* LetsEat_RestaurantUITests.m */; };
+		FACD4F881BD05C12000BDF28 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F861BD05C12000BDF28 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		FACD4F891BD05C12000BDF28 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F871BD05C12000BDF28 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		FACD4F931BD05CA0000BDF28 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F8A1BD05CA0000BDF28 /* AudioToolbox.framework */; };
+		FACD4F941BD05CA0000BDF28 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F8B1BD05CA0000BDF28 /* CFNetwork.framework */; };
+		FACD4F951BD05CA0000BDF28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F8C1BD05CA0000BDF28 /* CoreGraphics.framework */; };
+		FACD4F961BD05CA0000BDF28 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F8D1BD05CA0000BDF28 /* libsqlite3.0.tbd */; };
+		FACD4F971BD05CA0000BDF28 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F8E1BD05CA0000BDF28 /* libz.1.1.3.tbd */; };
+		FACD4F981BD05CA0000BDF28 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F8F1BD05CA0000BDF28 /* QuartzCore.framework */; };
+		FACD4F991BD05CA0000BDF28 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F901BD05CA0000BDF28 /* Security.framework */; };
+		FACD4F9A1BD05CA0000BDF28 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F911BD05CA0000BDF28 /* StoreKit.framework */; };
+		FACD4F9B1BD05CA0000BDF28 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACD4F921BD05CA0000BDF28 /* SystemConfiguration.framework */; };
+		FACD4F9E1BD05D84000BDF28 /* Reservation.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4F9D1BD05D84000BDF28 /* Reservation.m */; settings = {ASSET_TAGS = (); }; };
+		FACD4FA31BD05D9D000BDF28 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4FA01BD05D9D000BDF28 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FACD4FA41BD05D9D000BDF28 /* ReservationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD4FA21BD05D9D000BDF28 /* ReservationTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,23 @@
 		FACD4F731BD058BD000BDF28 /* LetsEat_RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsEat_RestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACD4F771BD058BD000BDF28 /* LetsEat_RestaurantUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetsEat_RestaurantUITests.m; sourceTree = "<group>"; };
 		FACD4F791BD058BD000BDF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACD4F861BD05C12000BDF28 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FACD4F871BD05C12000BDF28 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FACD4F8A1BD05CA0000BDF28 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FACD4F8B1BD05CA0000BDF28 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FACD4F8C1BD05CA0000BDF28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FACD4F8D1BD05CA0000BDF28 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FACD4F8E1BD05CA0000BDF28 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		FACD4F8F1BD05CA0000BDF28 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FACD4F901BD05CA0000BDF28 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FACD4F911BD05CA0000BDF28 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FACD4F921BD05CA0000BDF28 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FACD4F9C1BD05D84000BDF28 /* Reservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reservation.h; sourceTree = "<group>"; };
+		FACD4F9D1BD05D84000BDF28 /* Reservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reservation.m; sourceTree = "<group>"; };
+		FACD4F9F1BD05D9D000BDF28 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FACD4FA01BD05D9D000BDF28 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FACD4FA11BD05D9D000BDF28 /* ReservationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationTableViewController.h; sourceTree = "<group>"; };
+		FACD4FA21BD05D9D000BDF28 /* ReservationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACD4F931BD05CA0000BDF28 /* AudioToolbox.framework in Frameworks */,
+				FACD4F941BD05CA0000BDF28 /* CFNetwork.framework in Frameworks */,
+				FACD4F951BD05CA0000BDF28 /* CoreGraphics.framework in Frameworks */,
+				FACD4F961BD05CA0000BDF28 /* libsqlite3.0.tbd in Frameworks */,
+				FACD4F971BD05CA0000BDF28 /* libz.1.1.3.tbd in Frameworks */,
+				FACD4F981BD05CA0000BDF28 /* QuartzCore.framework in Frameworks */,
+				FACD4F991BD05CA0000BDF28 /* Security.framework in Frameworks */,
+				FACD4F9A1BD05CA0000BDF28 /* StoreKit.framework in Frameworks */,
+				FACD4F9B1BD05CA0000BDF28 /* SystemConfiguration.framework in Frameworks */,
+				FACD4F891BD05C12000BDF28 /* Parse.framework in Frameworks */,
+				FACD4F881BD05C12000BDF28 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +143,19 @@
 		FACD4F511BD058BD000BDF28 /* LetsEat_Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				FACD4F851BD05BFF000BDF28 /* Frameworks */,
 				FACD4F551BD058BD000BDF28 /* AppDelegate.h */,
 				FACD4F561BD058BD000BDF28 /* AppDelegate.m */,
 				FACD4F581BD058BD000BDF28 /* ViewController.h */,
 				FACD4F591BD058BD000BDF28 /* ViewController.m */,
 				FACD4F5B1BD058BD000BDF28 /* Main.storyboard */,
 				FACD4F5E1BD058BD000BDF28 /* Assets.xcassets */,
+				FACD4F9F1BD05D9D000BDF28 /* DetailViewController.h */,
+				FACD4FA01BD05D9D000BDF28 /* DetailViewController.m */,
+				FACD4FA11BD05D9D000BDF28 /* ReservationTableViewController.h */,
+				FACD4FA21BD05D9D000BDF28 /* ReservationTableViewController.m */,
+				FACD4F9C1BD05D84000BDF28 /* Reservation.h */,
+				FACD4F9D1BD05D84000BDF28 /* Reservation.m */,
 				FACD4F601BD058BD000BDF28 /* LaunchScreen.storyboard */,
 				FACD4F631BD058BD000BDF28 /* Info.plist */,
 				FACD4F521BD058BD000BDF28 /* Supporting Files */,
@@ -138,6 +187,24 @@
 				FACD4F791BD058BD000BDF28 /* Info.plist */,
 			);
 			path = LetsEat_RestaurantUITests;
+			sourceTree = "<group>";
+		};
+		FACD4F851BD05BFF000BDF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FACD4F8A1BD05CA0000BDF28 /* AudioToolbox.framework */,
+				FACD4F8B1BD05CA0000BDF28 /* CFNetwork.framework */,
+				FACD4F8C1BD05CA0000BDF28 /* CoreGraphics.framework */,
+				FACD4F8D1BD05CA0000BDF28 /* libsqlite3.0.tbd */,
+				FACD4F8E1BD05CA0000BDF28 /* libz.1.1.3.tbd */,
+				FACD4F8F1BD05CA0000BDF28 /* QuartzCore.framework */,
+				FACD4F901BD05CA0000BDF28 /* Security.framework */,
+				FACD4F911BD05CA0000BDF28 /* StoreKit.framework */,
+				FACD4F921BD05CA0000BDF28 /* SystemConfiguration.framework */,
+				FACD4F861BD05C12000BDF28 /* Bolts.framework */,
+				FACD4F871BD05C12000BDF28 /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACD4FA41BD05D9D000BDF28 /* ReservationTableViewController.m in Sources */,
+				FACD4FA31BD05D9D000BDF28 /* DetailViewController.m in Sources */,
 				FACD4F5A1BD058BD000BDF28 /* ViewController.m in Sources */,
 				FACD4F571BD058BD000BDF28 /* AppDelegate.m in Sources */,
+				FACD4F9E1BD05D84000BDF28 /* Reservation.m in Sources */,
 				FACD4F541BD058BD000BDF28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +486,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LetsEat_Restaurant",
+				);
 				INFOPLIST_FILE = LetsEat_Restaurant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MonteThakkar.LetsEat-Restaurant";
@@ -427,6 +501,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LetsEat_Restaurant",
+				);
 				INFOPLIST_FILE = LetsEat_Restaurant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MonteThakkar.LetsEat-Restaurant";
